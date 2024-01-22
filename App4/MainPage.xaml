@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App4.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Lista filmów" HorizontalTextAlignment="Center" TextColor="White" FontSize="36" x:Name="topLabel"/>
+        </Frame>
+        <StackLayout Margin="20" x:Name="movieStackLayout" IsVisible="false">
+            <Image x:Name="plakat" Source="https://ecsmedia.pl/cdn-cgi/image/format=webp,width=544,height=544,/c/jurassic-park-plakat-filmowy-61x91-5-cm-b-iext65828695.jpg"></Image>
+            <Label x:Name="premiera"></Label>
+            <Label x:Name="rezyser"></Label>
+            <Label x:Name="aktorzy"></Label>
+            <Label x:Name="studio"></Label>
+            <Label x:Name="kraj"></Label>
+            <Label x:Name="zdjecia"></Label>
+            <Button Text="Wróć" x:Name="comeBackButton"></Button>
+        </StackLayout>
+        <StackLayout Margin="20" x:Name="myStackLayout">
+            
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>
